@@ -1,0 +1,123 @@
+.header{
+    align-items: center;
+    height:80px;
+    border-style: solid;;
+    border-width:5px;
+    border-color: black;
+    background-color: cornsilk;
+}
+/* Styling for the header and user circle */
+.header {
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+}
+
+.user-circle {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.user-menu {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown menu styling */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%; /* Position below the button */
+    right: 0;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 4px;
+    z-index: 1000;
+    min-width: 150px;
+}
+
+.dropdown-item {
+    padding: 8px 12px;
+    color: #333;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-item:hover {
+    background-color: #f0f0f0;
+}
+
+/* Show the dropdown menu on hover */
+.user-menu:hover .dropdown-menu {
+    display: block;
+}
+
+.arrow-left{
+    margin-left: 20px;
+}
+.profile-header {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+    border: 2px solid black;
+}
+.initial{
+    background-color: #6c757d;
+    color: white; 
+    margin-right: 30px;
+    border-radius: 50%; 
+    width: 40px; 
+    height: 40px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+.form-container {
+    display: flex; 
+    justify-content: space-evenly;
+}
+
+.form-section {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    margin-right: 20px;
+    width:400px;
+}
+.color-picker,
+.profile-picture {
+    margin-top: 30px;
+}
+.profile-picture img {
+    display: block;
+    max-width: 100px;
+    margin-top: 10px;
+}
+label {
+    margin-top: 10px;
+    display: block;
+    font-size: large;
+    font-weight: bold;
+}
+.button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: blueviolet; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #1bab3f;
+}

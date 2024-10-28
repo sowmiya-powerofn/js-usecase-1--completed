@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding-right: 20px;
+}
+
+.log-out {
+    width: 200px;
+    margin-left: 20px;
+}
+.initial{
+    background-color: #6c757d;
+    color: white; 
+    margin-left: 10px;
+    margin-right: 30px;
+    border-radius: 50%; 
+    width: 40px; 
+    height: 40px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.form-container {
+    display: flex; 
+    justify-content: space-evenly;
+}
+
+.form-section {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    margin-right: 20px;
+    width:400px;
+}
+
+.card-title{
+    font-size:30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top:30px;
+    margin-left:60px;
+}
+.card-text{
+    font-size:20px;
+    margin-bottom: 30px;
+    margin-top:30px;
+    margin-left: 60px;
+}
+h1 {
+    text-align: left;
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#date {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="text"] {
+    text-align: left; 
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(73, 76, 255); 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #1bab3f;
+}
+
+.summary-card {
+    background: #f8f9fa; 
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width:500px;
+    margin-right: 50px;
+}
+
+.tooltip-icon {
+    cursor: pointer;
+    margin-left: 5px;
+    color: #6c757d; 
+}
+
+
+#data-list tr.updated {
+    background-color: #aad7fe; 
+}
